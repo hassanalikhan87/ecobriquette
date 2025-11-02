@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "../styles/theme.css";
+
+@theme inline {
+  --color-background: var(--sys-color-background);
+  --color-surface: var(--sys-color-surface);
+  --color-surface-muted: var(--sys-color-surface-muted);
+  --color-surface-dark: var(--sys-color-surface-dark);
+  --color-hero-bg: var(--sys-color-hero-bg);
+  --color-border: var(--sys-color-border);
+  --color-border-strong: var(--sys-color-border-strong);
+  --color-text-primary: var(--sys-color-text-primary);
+  --color-text-secondary: var(--sys-color-text-secondary);
+  --color-text-contrast: var(--sys-color-text-contrast);
+  --color-accent: var(--sys-color-accent);
+  --color-accent-dark: var(--sys-color-accent-dark);
+  --color-accent-contrast: var(--sys-color-accent-contrast);
+  --font-sans: var(--sys-font-family-sans);
+  --font-mono: var(--sys-font-family-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--sys-color-background);
+  color: var(--sys-color-text-primary);
+  font-family: var(--sys-font-family-sans);
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

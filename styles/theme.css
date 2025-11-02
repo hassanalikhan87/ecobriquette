@@ -1,0 +1,41 @@
+:root {
+  --sys-color-background: #ffffff;
+  --sys-color-text-primary: #58595b;
+  --sys-color-text-secondary: #7a7b7d;
+  --sys-color-text-contrast: #ffffff;
+  --sys-color-surface: #f7f8f3;
+  --sys-color-surface-muted: #e5e6e1;
+  --sys-color-surface-dark: #58595b;
+  --sys-color-hero-bg: #3a3b3d;
+  --sys-color-border: #d4d5cf;
+  --sys-color-border-strong: #b5b6b0;
+  --sys-color-overlay-dark: rgba(0, 0, 0, 0.65);
+  --sys-color-overlay-emerald: rgba(184, 235, 29, 0.35);
+  --sys-color-accent: #b8eb1d;
+  --sys-color-accent-dark: #98c314;
+  --sys-color-accent-contrast: #1e2700;
+
+  --sys-font-family-sans: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --sys-font-family-mono: var(--font-geist-mono), "SFMono-Regular", Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sys-color-background: #141516;
+    --sys-color-text-primary: #f9faf7;
+    --sys-color-text-secondary: #c5c6c8;
+    --sys-color-surface: #1f2021;
+    --sys-color-surface-muted: #1a1b1c;
+    --sys-color-surface-dark: #101112;
+    --sys-color-hero-bg: #0b0c0d;
+    --sys-color-border: #2f3031;
+    --sys-color-border-strong: #414243;
+    --sys-color-overlay-dark: rgba(0, 0, 0, 0.6);
+    --sys-color-overlay-emerald: rgba(184, 235, 29, 0.4);
+    --sys-color-accent: #b8eb1d;
+    --sys-color-accent-dark: #7ea30f;
+    --sys-color-accent-contrast: #0c1000;
+  }
+}
