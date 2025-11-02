@@ -57,7 +57,7 @@ export default function TechnologySection() {
           </ul>
           <a
             href="#contact"
-            className="inline-flex max-w-fit items-center gap-2 rounded-full bg-[var(--color-accent)] px-6 py-3 text-sm font-semibold text-[var(--color-accent-contrast)] transition hover:bg-[var(--color-accent-dark)]"
+            className="inline-flex max-w-fit items-center gap-2 rounded-full bg-[var(--color-accent-dark)] px-6 py-3 text-sm font-semibold text-[var(--color-accent-contrast)] transition hover:bg-[var(--color-accent)]"
           >
             Schedule a facility assessment
           </a>
