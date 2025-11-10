@@ -1,5 +1,5 @@
 import ContactSection from "@/components/sections/ContactSection";
-import FaqSection from "@/components/sections/FaqSection";
+import DevGoalsSection from "@/components/sections/DevGoalsSection";
 import HeroSection from "@/components/sections/HeroSection";
 import ImpactSection from "@/components/sections/ImpactSection";
 import ProcessSection from "@/components/sections/ProcessSection";
@@ -25,7 +25,7 @@ export default function Home() {
         <UseCasesSection applications={applications} />
         <ProcessSection steps={processSteps} />
         <ImpactSection stats={stats} />
-        <FaqSection />
+        <DevGoalsSection />
         <PartnersSection />
         <ContactSection />
       </main>

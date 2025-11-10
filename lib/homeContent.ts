@@ -1,7 +1,6 @@
 import { FacilityIcon, LeafClusterIcon, ShieldFlameIcon } from "@/components/icons/highlight-icons";
 import type {
   Application,
-  Faq,
   Highlight,
   ProcessStep,
   Stat,
@@ -81,20 +80,25 @@ export const processSteps: ProcessStep[] = [
   },
 ];
 
-export const faqs: Faq[] = [
+export const partnersList: ProcessStep[] = [
   {
-    question: "How does EcoBriquette differ from other biochar systems?",
-    answer:
-      "Our modular reactors are engineered for field deployment and plug into low-power grids. Integrated preprocessing, emissions scrubbing, and MRV sensors ship standard with every unit, compressing the learning curve for partners.",
+    title: "Feedstock mapping",
+    description:
+      "Digitally assess residue types, ash content, and logistics to configure the right conversion recipe for each territory.",
   },
   {
-    question: "What carbon programs recognize EcoBriquette output?",
-    answer:
-      "We align with Puro.earth and Verra biochar methodologies, providing traceability packages that include kiln telemetry, lab assays, and soil application evidence.",
+    title: "On-site preparation",
+    description:
+      "Low-power shredding and drying modules condition biomass within the mobile units.",
   },
   {
-    question: "Can the system co-produce energy for local use?",
-    answer:
-      "Yes. Captured syngas and heat can run dryers, greenhouses, or small steam loops. We design heat recovery packages around each deployment’s load profile.",
+    title: "Oxygen-lean conversion",
+    description:
+      "A staged torrefaction and pyrolysis sequence yields biochar while suppressing particulate emissions.",
+  },
+  {
+    title: "Distribution",
+    description:
+      "Automated bagging, briquetting, and cloud reporting tie physical products to carbon registry documentation in real time.",
   },
 ];

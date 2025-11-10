@@ -10,6 +10,7 @@ const navLinks = [
   { href: "#technology", label: "Technology" },
   { href: "#process", label: "Process" },
   { href: "#impact", label: "Impact" },
+  { href: "#partners", label: "Partners" },
 ];
 
 type HeroSectionProps = {
