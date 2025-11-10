@@ -10,10 +10,10 @@ export default function ContactSection() {
           Get in touch
         </p>
         <h2 className="text-balance text-3xl font-semibold sm:text-4xl">
-          Ready to deploy carbon-negative micro-hubs?
+          Want to know more?
         </h2>
         <p className="text-base text-white/80 sm:text-lg">
-          Share your biomass profile and project goals. We’ll blueprint a pilot, estimate carbon removal yields, and map commercialization pathways.
+          Reach out to us using the following details.
         </p>
         <a
           href="mailto:hello@ecobriquette.com"
@@ -22,8 +22,12 @@ export default function ContactSection() {
           hello@ecobriquette.com
         </a>
         <div className="text-xs text-white/80">
-          Prefer a call? +1 (800) 555-4722 · Available Monday–Friday
+          <p>Address:</p>
+          <p>Tec Labs, Campus da FCUL</p>
+          <p>Campo Grande</p>
+          <p>1749-016 Lisboa, Portugal</p>
         </div>
+        <div className="text-xs text-white/80">Available Monday–Friday</div>
       </div>
     </section>
   );

@@ -9,11 +9,11 @@ import UseCasesSection from "@/components/sections/UseCasesSection";
 import Footer from "@/components/layout/Footer";
 import {
   applications,
-  faqs,
   highlights,
   processSteps,
   stats,
 } from "@/lib/homeContent";
+import PartnersSection from "@/components/sections/PartnersSection";
 
 export default function Home() {
   return (
@@ -25,7 +25,8 @@ export default function Home() {
         <UseCasesSection applications={applications} />
         <ProcessSection steps={processSteps} />
         <ImpactSection stats={stats} />
-        <FaqSection faqs={faqs} />
+        <FaqSection />
+        <PartnersSection />
         <ContactSection />
       </main>
       <Footer />

@@ -10,7 +10,7 @@ export default function TechnologySection() {
     >
       <div className="absolute inset-y-0 right-0 hidden w-1/2 lg:block">
         <Image
-          src="/technology-briquettes.jpg"
+          src="/forest-briquettes.jpg"
           alt="Briquette manufacturing technology"
           fill
           sizes="50vw"
@@ -24,51 +24,53 @@ export default function TechnologySection() {
             Technology
           </p>
           <h2 className="text-balance text-3xl font-semibold sm:text-4xl">
-            Adaptive pyrolysis designed for tough environments
+            The Biochar Carbon Removal Process
           </h2>
           <p className="text-base text-white/80">
-            Each EcoBriquette hub integrates feedstock conditioning, oxygen-lean
-            conversion, and gas cleaning inside a ruggedized frame. Inspired by
-            field-proven mobility and precision process control, the system
-            maintains optimal residence time and temperature even with variable
-            biomass.
+            Our system is engineered to maximize the climate value of
+            residual biomass, focusing on durable carbon storage outputs as
+            illustrated in the provided process diagram:
           </p>
           <ul className="grid gap-3 text-sm text-white/75">
             <li className="flex items-start gap-3">
               <AccentDot />
-              Wide feedstock tolerance—from nut shells and prunings to
-              sawdust—managed through automated recipe presets.
+              Residual Biomass Feedstock: We process diverse, hard-to-handle
+              residues—from agricultural waste to forestry cuttings—using
+              automated recipe presets.
             </li>
             <li className="flex items-start gap-3">
               <AccentDot />
-              <div>
-                Low-oxygen reactors recover up to{" "}
-                <strong className="font-semibold text-white">
-                  80% of carbon
-                </strong>{" "}
-                into stable biochar fractions.
-              </div>
+              Pyrolysis Plant: The feedstock is fed into our mobile unit for
+              clean, oxygen-lean conversion. The process deliberately optimizes
+              for Biochar output.
             </li>
             <li className="flex items-start gap-3">
               <AccentDot />
-              Embedded IoT stack streams kiln telemetry, stack emissions, and
-              product analytics for compliance-ready reporting.
+              Biochar: The conversion recovers up to 80% of the feedstock’s
+              carbon into a stable, high-value Biochar product.
+            </li>
+            <li className="flex items-start gap-3">
+              <AccentDot />
+              Durable Carbon Storage: Our biochar is refined for long-term
+              carbon storage applications, qualifying the outputs for durable
+              carbon removal credits: Biochar applied in agriculture, amending
+              soil to enhance fertility and sequestering carbon for centuries.
             </li>
           </ul>
-          <a
-            href="#contact"
-            className="inline-flex max-w-fit items-center gap-2 rounded-full bg-[var(--color-accent-dark)] px-6 py-3 text-sm font-semibold text-[var(--color-accent-contrast)] transition hover:bg-[var(--color-accent)]"
+          <p
+            className="text-white/75"
           >
-            Schedule a facility assessment
-          </a>
+            This process ensures that EcoBriquette not only converts waste but
+            also guarantees verifiable, durable carbon removal outcomes.{" "}
+          </p>
         </div>
-        <div className="relative hidden min-h-[320px] overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-lg backdrop-blur lg:block">
+        <div className="relative min-h-[320px] overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-lg backdrop-blur lg:block">
           <Image
-            src="/technology-briquettes.jpg"
+            src="/bio-char-process.png"
             alt="Inside a biomass briquette facility"
             fill
-            sizes="50vw"
-            className="object-cover"
+            sizes="100%"
+            className="object-contain"
           />
         </div>
       </div>

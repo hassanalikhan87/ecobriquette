@@ -1,25 +1,55 @@
 import SectionHeading from "@/components/layout/SectionHeading";
-import type { Faq } from "@/lib/types/home";
+import Image from "next/image";
 
-export default function FaqSection({ faqs }: { faqs: Faq[] }) {
+export default function FaqSection() {
   return (
     <section className="bg-[var(--color-hero-bg)] py-20 text-white">
       <div className="mx-auto max-w-6xl px-6 sm:px-10 lg:px-12">
         <SectionHeading
-          eyebrow="FAQ"
-          title="Answers to the questions we hear most"
-          description="Still curious about financing, carbon programs, or agronomic impacts? Reach out and we’ll tailor the right program."
+          eyebrow="UN SUSTAINABLE DEVELOPMENT GOALS"
+          title="Our work impacts the following"
         />
-        <div className="mt-14 grid gap-8 lg:grid-cols-3">
-          {faqs.map((faq) => (
-            <article
-              key={faq.question}
-              className="flex flex-col gap-4 rounded-2xl border border-white/10 bg-white/5 p-6"
-            >
-              <h3 className="text-lg font-semibold text-white">{faq.question}</h3>
-              <p className="text-sm text-white/80">{faq.answer}</p>
-            </article>
-          ))}
+        <div className="mt-10 flex flex-col gap-10 justify-center items-center md:flex-row">
+          <Image
+            src="/005.png"
+            alt="Inside a biomass briquette facility"
+            width={192}
+            height={108}
+            className="h-auto max-w-3xl object-contain"
+            priority
+          />
+          <Image
+            src="/001.png"
+            alt="Inside a biomass briquette facility"
+            width={192}
+            height={108}
+            className="h-auto max-w-3xl object-contain"
+            priority
+          />
+          <Image
+            src="/002.png"
+            alt="Inside a biomass briquette facility"
+            width={192}
+            height={108}
+            className="h-auto max-w-3xl object-contain"
+            priority
+          />
+          <Image
+            src="/003.png"
+            alt="Inside a biomass briquette facility"
+            width={192}
+            height={108}
+            className="h-auto max-w-3xl object-contain"
+            priority
+          />
+          <Image
+            src="/004.png"
+            alt="Inside a biomass briquette facility"
+            width={192}
+            height={108}
+            className="h-auto max-w-3xl object-contain"
+            priority
+          />
         </div>
       </div>
     </section>

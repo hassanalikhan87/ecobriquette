@@ -9,44 +9,43 @@ import type {
 
 export const highlights: Highlight[] = [
   {
-    title: "Deploy anywhere",
+    title: "Rapid Deployment",
     description:
-      "Mobile densification units pack into a single crate and commission within 48 hours, bringing clean conversion technology to remote feedstock piles.",
+      "Our mobile units rapidly commission at any location to convert remote feedstock piles using clean pyrolysis technology.",
     Icon: LeafClusterIcon,
   },
   {
     title: "Climate-positive outputs",
     description:
-      "Produce premium biochar, densified briquettes, and process heat that qualify for durable carbon removal credits and circular supply chains.",
+      "Transform biomass into premium biochar and briquettes for lasting carbon removal and circular value.",
     Icon: ShieldFlameIcon,
   },
   {
     title: "Inclusive value chains",
     description:
-      "Offer farmer cooperatives, municipalities, and forestry teams a revenue stream for residues while eliminating smoky field-burning practices.",
+      "Monetizing agricultural and forestry residues while replacing smoky burns with clean, sustainable solutions.",
     Icon: FacilityIcon,
   },
 ];
 
 export const stats: Stat[] = [
-  { value: "95%", label: "less smoke than open burning" },
-  { value: "2.3×", label: "energy yield over raw residues" },
-  { value: "48 hr", label: "micro-hub deployment time" },
-  { value: "2.6 tCO₂e", label: "removed per tonne biochar" },
+  { value: "10–30%", label: "Increase in crop yields" },
+  { value: "up to 20%", label: "improved water retention" },
+  { value: "48 hr", label: "mobile deployment time" },
+  { value: "up to 3 Tonnes CO₂", label: "removed per tonne biochar" },
 ];
 
 export const applications: Application[] = [
   {
-    title: "Carbon removal developers",
+    title: "Carbon removal",
     points: [
-      "Secure high-quality biochar supply with transparent monitoring, reporting, and verification (MRV).",
-      "Bundle carbon credits with heat off-take to strengthen project economics.",
+      "Deliver verified, high-quality biochar through robust monitoring, reporting, and verification.",
     ],
   },
   {
     title: "Rural cooperatives",
     points: [
-      "Transform crop residues into premium soil inputs and smokeless briquettes on-site.",
+      "Transform crop residues into premium soil inputs on-site.",
       "Create new income streams for smallholder networks through carbon participation.",
     ],
   },
@@ -54,7 +53,7 @@ export const applications: Application[] = [
     title: "Waste authorities",
     points: [
       "Divert green waste from landfills and wildfire-prone stockpiles.",
-      "Deploy modular conversion hubs that scale with seasonal feedstock peaks.",
+      "Deploy mobile units that scale with seasonal feedstock peaks.",
     ],
   },
 ];
@@ -68,15 +67,15 @@ export const processSteps: ProcessStep[] = [
   {
     title: "On-site preparation",
     description:
-      "Low-power shredding and drying modules condition biomass within the micro-hub enclosure using captured waste heat.",
+      "Low-power shredding and drying modules condition biomass within the mobile units.",
   },
   {
     title: "Oxygen-lean conversion",
     description:
-      "A staged torrefaction and pyrolysis sequence yields biochar, process heat, and syngas while suppressing particulate emissions.",
+      "A staged torrefaction and pyrolysis sequence yields biochar while suppressing particulate emissions.",
   },
   {
-    title: "Distribution & MRV",
+    title: "Distribution",
     description:
       "Automated bagging, briquetting, and cloud reporting tie physical products to carbon registry documentation in real time.",
   },

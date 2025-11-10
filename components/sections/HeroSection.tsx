@@ -10,7 +10,6 @@ const navLinks = [
   { href: "#technology", label: "Technology" },
   { href: "#process", label: "Process" },
   { href: "#impact", label: "Impact" },
-  { href: "#contact", label: "Contact" },
 ];
 
 type HeroSectionProps = {
@@ -34,7 +33,7 @@ export default function HeroSection({ stats }: HeroSectionProps) {
         className="absolute inset-0 h-full w-full object-cover brightness-[0.55]"
       />
       <div className="absolute inset-0 bg-gradient-to-br from-[#141516d9] via-[#3a3b3dcc] to-[#b8eb1d59]" />
-      <div className="relative mx-auto flex max-w-6xl flex-col gap-16 px-6 pb-24 pt-10 sm:px-10 lg:px-12">
+      <div className="relative mx-auto flex max-w-6xl flex-col gap-4 px-6 pb-24 pt-10 sm:px-10 lg:px-12">
         <SiteHeader menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} closeMenu={closeMenu} />
         <div className="grid gap-10 lg:grid-cols-[1.1fr,0.9fr] lg:items-end">
@@ -57,20 +56,10 @@ function SiteHeader({
     <header className="flex flex-wrap items-center justify-between gap-6 text-sm font-medium tracking-wide">
       <a className="flex justify-start items-center gap-3" href="#hero">
         <div className="relative h-20 w-48 sm:h-16 sm:w-70">
-          {/* <Image
-            src="/secondary-logo.svg"
-            alt="EcoBriquette logo"
-            fill
-            sizes="(max-width: 640px) 48px, 48px"
-            className="object-contain sm:hidden"
-            priority
-          /> */}
           <Image
             src="/logo.svg"
             alt="EcoBriquette logo"
             fill
-            // sizes="(max-width: 640px) 128px, 160px"
-            // className="hidden object-contain sm:block"
             priority
           />
         </div>
@@ -88,7 +77,7 @@ function SiteHeader({
           className="hidden items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2 text-white transition hover:border-white hover:bg-white/20 lg:inline-flex"
           href="#contact"
         >
-          Work with us
+          Contact us
         </a>
         <button
           type="button"
@@ -125,10 +114,10 @@ function HeroCopy() {
   return (
     <div className="space-y-6">
       <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[var(--color-accent)]">
-        Modular carbon removal
+        Cut the carbon. keep the future.
       </p>
       <h1 className="text-balance text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
-        Turn waste biomass into carbon-negative energy and biochar, right where it’s generated.
+        Transform waste biomass into high-value biochar, right where it’s generated.
       </h1>
       <p className="text-base text-white/80 sm:text-lg">
         EcoBriquette’s transportable conversion hubs marry Takachar-inspired field deployment with high-temperature stability similar to advanced biochar reactors, delivering utility-scale impact without the megastructure.
@@ -201,7 +190,7 @@ function MobileMenu({
           className="mt-6 block rounded-full bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/20"
           onClick={closeMenu}
         >
-          Work with us
+          Contact us
         </a>
       </div>
     </div>

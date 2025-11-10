@@ -7,8 +7,8 @@ export default function SolutionsSection({ highlights }: { highlights: Highlight
     <SectionWrapper id="solutions">
       <SectionHeading
         eyebrow="Why Ecobriquette"
-        title="Field-ready conversion, frontier-grade carbon credits"
-        description="By redesigning biomass conversion for rapid deployment, EcoBriquette unlocks higher-value uses for residues while delivering measurable carbon removal outcomes."
+        title="Practical Technology, Measurable Climate Results"
+        description="EcoBriquette streamlines biomass processing for fast, field-ready deployment, turning residues into valuable BioChar and carbon removal."
       />
       <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {highlights.map(({ title, description, Icon }) => (
