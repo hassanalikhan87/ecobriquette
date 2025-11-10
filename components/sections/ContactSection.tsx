@@ -19,7 +19,7 @@ export default function ContactSection() {
           href="mailto:hello@ecobriquette.com"
           className="inline-flex items-center gap-3 rounded-full bg-[var(--color-accent-dark)] px-8 py-3 text-sm font-semibold text-[var(--color-hero-bg)] transition hover:bg-[var(--color-accent)]"
         >
-          hello@ecobriquette.com
+          umarfarooq@ecobriquette.com
         </a>
         <div className="text-xs text-white/80">
           <p>Address:</p>
