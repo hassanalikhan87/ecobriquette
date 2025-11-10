@@ -120,7 +120,7 @@ function HeroCopy() {
         Transform waste biomass into high-value biochar, right where it’s generated.
       </h1>
       <p className="text-base text-white/80 sm:text-lg">
-        EcoBriquette’s transportable conversion hubs marry Takachar-inspired field deployment with high-temperature stability similar to advanced biochar reactors, delivering utility-scale impact without the megastructure.
+        We’re developing scalable biochar solutions that remove carbon and restore balance to the planet. We deploy mobile reactors that transform waste biomass into biochar — a scalable solution for carbon storage.
       </p>
       <div className="flex flex-wrap gap-4 text-sm font-medium">
         <a

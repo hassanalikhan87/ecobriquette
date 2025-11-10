@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/webmail",
+      "destination": "https://premium168.web-hosting.com:2096",
+      "permanent": true
+    }
+  ]
+}
