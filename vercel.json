@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/webmail",
-      "destination": "https://premium168.web-hosting.com:2096",
+      "destination": "https://mail.hostinger.com/v2/auth/login",
       "permanent": true
     }
   ]
